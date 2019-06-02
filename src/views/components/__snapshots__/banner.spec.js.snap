@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Banner render correctly 1`] = `
+<div
+  className="banner"
+>
+  <img
+    src="images/banners/image1.png"
+    width="480px"
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Timer render correctly 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "9em",
+    }
+  }
+>
+  16:38
+</div>
+`;

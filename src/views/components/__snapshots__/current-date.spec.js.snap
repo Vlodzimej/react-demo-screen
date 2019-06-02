@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CurrentDate render correctly 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "1.8em",
+      "textTransform": "uppercase",
+    }
+  }
+>
+  M05 15, Wed
+</div>
+`;

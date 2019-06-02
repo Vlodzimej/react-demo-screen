@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Weather render correctly 1`] = `
+<div>
+  <div
+    className="ant-row"
+    style={
+      Object {
+        "marginTop": "32px",
+      }
+    }
+  >
+    <div
+      className="ant-col ant-col-12"
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <div
+        name="icon"
+      >
+        <img
+          src="images/weather/10d.png"
+        />
+      </div>
+    </div>
+    <div
+      className="ant-col ant-col-12"
+      style={
+        Object {
+          "display": "flex",
+          "fontSize": "6em",
+          "justifyContent": "left",
+        }
+      }
+    >
+      <div
+        name="temp"
+      >
+        +
+        16
+        °
+      </div>
+    </div>
+    <div
+      className="ant-col ant-col-24"
+      style={
+        Object {
+          "display": "flex",
+          "fontSize": "3em",
+          "justifyContent": "center",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      <div
+        name="description"
+      >
+        легкий дождь
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render Weather render without props 1`] = `
+<div>
+  <img
+    name="loading"
+    src="images/loading_planet.gif"
+    style={
+      Object {
+        "height": "150px",
+        "width": "150px",
+      }
+    }
+  />
+</div>
+`;
